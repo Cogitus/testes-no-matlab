@@ -1,0 +1,7 @@
+function scalespace = scaleSpaceGenerator(path)
+    %the ideal is that we have 4 octaves composed, each one of them, by 5 images. So we have them a scalespace of 20 blurred and resized images!
+    %the way we can to put all them in a single structure is in a cell, and not in a matrix-array.
+    
+    
+    
+end
