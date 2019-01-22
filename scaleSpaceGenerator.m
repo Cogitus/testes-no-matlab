@@ -5,7 +5,6 @@ function scalespace = scaleSpaceGenerator(path_to_image)
   
     
     image = imread(path_to_image);     %reads the corresponding image.
-    
     sub_image{1} = image;                 %this is a copy of image that we use to half the scale.
     
     for i=1:1:4                        %four are the number of octaves
